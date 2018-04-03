@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+body{
+	font-family: 'Merriweather', serif;
+	font-size: 20;
+	font-weight: bold;
+}
+
+
+#message{
+	padding-top: 13em;
+	text-align: center;
+}
