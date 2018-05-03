@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<title>ITPlayer</title>
+    <script src="jquery.js"></script>
+    <script src="popup.js"></script>
+    <script type="stylesheet" src="style.css"></script>
+</head>
+
+<body style="width: 250px; height: 120px;">
+	<div class="everything" style="padding: 10px auto 10px auto; margin: auto; text-align: center;">
+		<div class="texts" style="padding-top: 15px">
+            <div id="title" style="font-size: 13px; font-weight: bold;"></div>
+            <div id="username" style="font-size: 11px; color: grey;"></div>
+        </div>
+        <br>
+        <div class="buttons" style="position: absolute; text-align: center; left: 22px; bottom: 10px">
+        	<button id="add">Add</button>
+			<button id="play">Play</button>
+			<button id="pause">Pause</button>
+			<button id="prev">Prev</button>
+			<button id="next">Next</button>
+        </div>
+        <div class="hideme" id="infor" style="font-size: 10px; color: purple; position: absolute; text-align: center; left: 92px; bottom: 35px">Added to playlist</div>
+        <div class="hideme" id="wrong" style="font-size: 10px; color: red; position: absolute; left: 55px; text-align: center; bottom: 35px;">
+        	<div>Cannot add to playlist,</div>
+        	<div>because it's not a soundCloud url</div>
+        </div>
+
+	</div>
+
+
+	
+</body>
+
+</html>

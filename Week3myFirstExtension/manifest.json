@@ -5,8 +5,11 @@
 	"version": "1.0",
 	"browser_action":{
 		    "default_popup": "popup.html" 
-
 	},
+
+	"permissions": [
+          "tabs"
+        ],
 
 	"content_scripts": [
     {

@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "ITPlayer",
+  "version": "1.0",
+
+  "icons": { "16": "music.png",
+           "48": "music.png",
+          "128": "music.png" },
+
+  "background": {
+  
+    "persistent": false,
+    "page":"background.html"
+
+  },
+
+  "browser_action": {
+    "default_icon": "music.png",
+    "default_title": "Make page John Malkovich",
+    "default_popup": "popup.html"
+  },
+
+  "web_accessible_resources": [
+    "*.png",
+    "style.css"
+  ],
+
+  "permissions": [
+    "activeTab"
+  ],
+
+
+  "content_security_policy": "script-src 'self' https://api.soundcloud.com https://www.gstatic.com https://*.firebaseio.com; object-src 'self'"
+
+
+}
